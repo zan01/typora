@@ -130,3 +130,11 @@ git reset --hard HEAD^
     $ git diff HEAD -- readme.txt 
     ```
 
+- git 中文显示
+
+    ```
+    #不对0x80以上的字符进行quote，解决git status/commit时中文文件名乱码
+    git config --global core.quotepath false
+    ```
+
+    
