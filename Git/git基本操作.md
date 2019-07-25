@@ -7,8 +7,8 @@
 1. 创建空的版本库
 
 ```
- $ git init
- Initialized empty Git repository in /Users/naixuanzan/Documents/GitHub/test/.git/
+ $ git init
+ Initialized empty Git repository in /test/.git/
 ```
 
 添加文件到 stage(暂存区)
@@ -39,19 +39,19 @@ $ git commit -m" 第一次"
 $ git log
 
 commit e0fb004e15d025451803906a5cac8f5d9fe8ee6d
-Author: zan01 <zan_zan2015@126.com>
+
 Date:   Wed Jul 17 16:42:32 2019 +0800
 
     第三次
 
 commit 16695b20677c2f15676510687b732c45d6cc68bc
-Author: zan01 <zan_zan2015@126.com>
+Author: 
 Date:   Wed Jul 17 16:37:28 2019 +0800
 
     第二次
 
 commit a4015dca2551a6b3a57802d3162540a1ddbbefc4
-Author: zan01 <zan_zan2015@126.com>
+Author: 
 Date:   Wed Jul 17 15:03:57 2019 +0800
 
      第一次
