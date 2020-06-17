@@ -1,0 +1,16 @@
+1. ##### 创建父类项目
+
+    ![image-20200109191904542](C:\Users\EDZ\iCloudDrive\文档\springBoot\image-20200109191738943.png)
+
+2. ##### 选择父项目类型
+
+    ![image-20200109192108881](C:\Users\EDZ\iCloudDrive\文档\springBoot\image-20200109192108881.png)
+
+3. ##### 创建模块
+
+    ![image-20200109193345940](C:\Users\EDZ\iCloudDrive\文档\springBoot\image-20200109193345940.png)
+
+4. 创建 `maven` 模块
+
+    ![image-20200109193450220](C:\Users\EDZ\iCloudDrive\文档\springBoot\image-20200109193450220.png)
+
