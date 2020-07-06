@@ -16,7 +16,9 @@ public interface InitializingBean {
 
 ---
 
-UML
+> 策略模式UML
+
+![image-20200622205023308](/Users/naixuanzan/Documents/typora/spring/image-20200622205023308.png)
 
 
 
