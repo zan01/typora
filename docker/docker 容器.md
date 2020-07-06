@@ -26,9 +26,7 @@ $ docker ps -a
 $ docker stop 容器名称/容器id
 ```
 
-![image-20191226210958586](C:\Users\EDZ\AppData\Roaming\Typora\typora-user-images\image-20191226210958586.png)
-
-
+![image-20200706100641395](image-20200706100641395.png)
 
 ##### 启动容器
 
@@ -38,9 +36,7 @@ $ docker stop 容器名称/容器id
 $ docker start 容器名称/容器id
 ```
 
-![image-20191226211159532](C:\Users\EDZ\AppData\Roaming\Typora\typora-user-images\image-20191226211159532.png)
-
-
+![image-20200706100605748](image-20200706100605748.png)
 
 ##### 删除容器
 
@@ -51,8 +47,6 @@ $ docker rm 容器名称/容器id
 ```
 
 <!--删除容器前 先停止容器 或者 增加 -f 参数进行强制删除-->
-
-
 
 ##### 进入容器
 

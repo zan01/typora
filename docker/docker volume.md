@@ -18,7 +18,7 @@
     $ docker volume ls
     ```
 
-    ![image-20200110201943558](C:\Users\EDZ\iCloudDrive\文档\docker\image-20200110201943558.png)
+    ![image-20200706100735983](image-20200706100735983.png)
 
 4. ##### 查看 volume 详细信息
 
@@ -26,7 +26,7 @@
     $ docker inspect nexus-data
     ```
 
-    ![image-20200110202127203](C:\Users\EDZ\iCloudDrive\文档\docker\image-20200110202127203.png)
+    ![image-20200706100801986](image-20200706100801986.png)
 
 5. ##### 删除 volume
 

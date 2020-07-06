@@ -4,4 +4,4 @@
 
 
 
-#### <img src="C:\Users\EDZ\iCloudDrive\文档\javascript\lifecycle.png" style="zoom: 50%;"/>
+#### <img src="lifecycle.png" style="zoom: 50%;"/>

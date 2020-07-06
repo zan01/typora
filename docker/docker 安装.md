@@ -120,15 +120,11 @@ $ docker version
 
 ##### 通过修改 `daemon` 配置文件 `/etc/docker/daemon.json` 来使用加速器
 
-```
+```json
 { 
 	"registry-mirrors": ["https://oh42sv00.mirror.aliyuncs.com"]
 }
 ```
-
-
-
-<img src="C:\Users\EDZ\AppData\Roaming\Typora\typora-user-images\image-20191225223330263.png" alt="image-20191225223330263" style="zoom:50%;" />
 
 
 

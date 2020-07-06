@@ -8,7 +8,7 @@
     $ docker search nexus
     ```
 
-    ![image-20200110193914494](C:\Users\EDZ\iCloudDrive\学习文档\docker\image-20200110193914494.png)
+    ![image-20200110193914494](image-20200110193914494.png)
 
 2. 获取`nexus3`
 
@@ -22,7 +22,7 @@
     $ docker images
     ```
 
-    ![image-20200110193419159](C:\Users\EDZ\iCloudDrive\文档\docker\image-20200110193419159.png)
+    ![image-20200110193419159](image-20200110193419159.png)
 
 ##### 启动`docker nexus3`
 
