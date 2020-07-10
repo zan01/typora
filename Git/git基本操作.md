@@ -1,5 +1,7 @@
 
 
+
+
 #### Git 基本操作
 
 > https://www.liaoxuefeng.com/wiki/896043488029600/896827951938304
@@ -15,18 +17,25 @@
 
 ```
 $ git add <file...>
+
+#git add -A ：暂存所有的文件，包括新增加的、修改的和删除的文件。
+#git add . ：暂存新增加的和修改的文件，不包括已删除的文件。即当前目录下所有文件。
+#git add -u：暂存修改的和删除的文件，不包括新增加的文件。
 ```
 
 ```
 $ git add readme.text
 ```
 
+git commit
+
 ```
 $ git commit -m" 第一次"
-
-[master (root-commit) a4015dc]  第一次
- 1 file changed, 1 insertion(+)
- create mode 100644 readme.text
+# 把暂存区所有文件修改提交到仓库的当前分支。
+$ git commit -am ""
+# 把所有已经跟踪过的文件暂存起来一并提交，从而跳过 git add 步骤
+$ git commit --amend
+# 重新提交，第二次提交将代替第一次提交的结果。最终只会有一个提交
 ```
 
 ---
