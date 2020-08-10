@@ -8,14 +8,16 @@
 
 1. 创建空的版本库
 
-```
+```shell
  $ git init
  Initialized empty Git repository in /test/.git/
 ```
 
-添加文件到 stage(暂存区)
+**git add**
 
-```
+> 添加文件到 stage(暂存区)
+
+```shell
 $ git add <file...>
 
 #git add -A ：暂存所有的文件，包括新增加的、修改的和删除的文件。
@@ -23,13 +25,11 @@ $ git add <file...>
 #git add -u：暂存修改的和删除的文件，不包括新增加的文件。
 ```
 
-```
-$ git add readme.text
-```
+**git commit**
 
-git commit
+> 提交暂存区
 
-```
+```shell
 $ git commit -m" 第一次"
 # 把暂存区所有文件修改提交到仓库的当前分支。
 $ git commit -am ""
@@ -40,82 +40,33 @@ $ git commit --amend
 
 ---
 
-提交commit 日志
+**git log**
 
-退出 git log 界面 输入 q 然后回车
+> 日志查看
 
-```
+```shell
 $ git log
-
-commit e0fb004e15d025451803906a5cac8f5d9fe8ee6d
-
-Date:   Wed Jul 17 16:42:32 2019 +0800
-
-    第三次
-
-commit 16695b20677c2f15676510687b732c45d6cc68bc
-Author: 
-Date:   Wed Jul 17 16:37:28 2019 +0800
-
-    第二次
-
-commit a4015dca2551a6b3a57802d3162540a1ddbbefc4
-Author: 
-Date:   Wed Jul 17 15:03:57 2019 +0800
-
-     第一次
-(END)
-```
-
-简化 log输入 --pretty=oneline
-
-```
 $ git log --pretty=oneline
-
-e0fb004e15d025451803906a5cac8f5d9fe8ee6d 第三次
-16695b20677c2f15676510687b732c45d6cc68bc 第二次
-a4015dca2551a6b3a57802d3162540a1ddbbefc4  第一次
-```
-
-回退到上一个版本
-
-> 上一个版本    HEAD^  上上一个版本  HEAD^^
+#简化 log输入 --pretty=oneline
 
 ```
+
+**git reset**
+
+> 回滚
+
+```shell
 git reset --hard HEAD^
+#上一个版本    HEAD^  上上一个版本  HEAD^^
 ```
 
+**git status**
 
-
-- 工作区和暂存区
-
-    - 工作区(本地文件夹包含 .git 就是一个本地工作区)
-
-- 版本库（Repository）
-
-    - 工作区中存在隐藏的. git 文件夹,其中包含了名为stage的暂存区.Git为我们自动创建的第一个分支`master`，以及指向`master`的一个指针叫`HEAD` 
-
-        git 提交分为两步
-
-        1. `$ git add` 添加文件(就是把文件的修改放入暂存区)
-        2. `$ git commit`  把暂存区的修改提交到当前分支
+```
+$ git status 
+```
 
 ---
-
-- #### git 状态
-
-    展示当前 git 状态 
-
-    1. 修改的文件
-    2. 新增的文件
-    3. 待新增的文件
-    4. 待提交的文件等
-
-    ```
-    $ git status 
-    ```
-
-    ---
 
 - 从 HEAD 覆盖本地工作区文件的修改vi
 
@@ -146,4 +97,20 @@ git reset --hard HEAD^
     git config --global core.quotepath false
     ```
 
+    ```
+    diff
+    显示工作区与暂存区的不同
+    git diff
+    显示暂存区与本地仓库的不同
+    git diff --cached
+    显示工作区，暂存区与本地仓库的不同
+    git diff HEAD
+    仅显示改变的文件
+    git diff --name-only
+    比较两次提交的差异
+    git diff <commit> <commit>
+    显示某次 commit 所做的更改
+    git show <commit>
+    ```
+    
     

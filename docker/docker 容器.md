@@ -16,8 +16,6 @@ $ docker ps
 $ docker ps -a
 ```
 
-![width='15px' image-20200710152155788](image-20200710152155788.png)
-
 ##### 终止容器
 
 ---
