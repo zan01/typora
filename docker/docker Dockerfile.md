@@ -2,9 +2,12 @@
 
 ---
 
-```java
+```shell
+#基础镜像信息
 FROM <image>或 FROM <image>:<tag>
+#维护者信息
 MAINTAINER  <name>
+#镜像操作指令
 WORKDIR /path/work
 RUN <command> 或 RUN [""， ""， ""]
 CMD ["","",""]
